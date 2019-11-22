@@ -13,7 +13,7 @@ goombasChildrenArray[2].textContent = `Price: ${goombasPrice} coins`
 
 const goombasInput = goombasChildrenArray[3].children[0] //this means input is the [0](only) child of label. 
 
-console.log(goombasInput) // <= Nan unless you write a number here. 
+console.log(goombasInput) // <=
 totalGoombasOnly = () => {
     goombasChildrenArray[4].textContent = goombasInput.value * goombasPrice
 }
