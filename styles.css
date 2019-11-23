@@ -1,3 +1,17 @@
-h1 {
-    color: red;
+/*h1 {
+  color: red;
 }
+
+img {
+  width: 50px;
+  height: auto;
+}*/
+h1 {
+  color: #FFFFFF;
+  text-shadow: 0 0 10px #FFFFFF;
+  color: #ff660062;
+  font-size: 100px;
+  font-weight: bolder;
+  font-style: normal;
+  text-shadow: 5px 5px 0 rgba(0, 0, 0, 0.7);
+  }
