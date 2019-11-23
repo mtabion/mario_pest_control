@@ -61,8 +61,8 @@ const result = document.getElementById("result")
 
 function addHeading(e) {
     e.preventDefault()
-    result.textContent = (goombasInput.value * goombasPrice) +
+    result.textContent = "The bill is: $" + Number((goombasInput.value * goombasPrice) +
         (bobomsInput.value * bobomsPrice) +
-        (cheepsInput.value * cheepsPrice)
+        (cheepsInput.value * cheepsPrice))
 }
 calculate.addEventListener("click", addHeading)
