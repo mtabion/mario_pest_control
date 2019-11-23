@@ -63,3 +63,11 @@ cheepsInput.addEventListener("click", totalCheepsOnly)
 
 
 //For the EXTRA CREDIT, we can add media queries in CSS.
+const calculate = document.getElementById("calculate")
+const result = document.getElementById("result")
+
+function addHeading(e) {
+    e.preventDefault()
+    result.textContent = (goombasInput.value * goombasPrice) + (bobomsInput.value * bobomsPrice) + (cheepsInput.value * cheepsPrice)
+}
+calculate.addEventListener("click", addHeading)
