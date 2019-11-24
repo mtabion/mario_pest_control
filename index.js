@@ -14,6 +14,7 @@ console.log(goombasInput)
 
 totalGoombasOnly = () => {
     goombasChildrenArray[4].textContent = goombasInput.value * goombasPrice
+    goombasChildrenArray[4].style.fontSize = "2.5em"
 }
 goombasInput.addEventListener("click", totalGoombasOnly)
 
@@ -33,6 +34,7 @@ console.log(bobomsInput)
 
 totalBobomsOnly = () => {
     bobomsChildrenArray[4].textContent = bobomsInput.value * bobomsPrice
+    bobomsChildrenArray[4].style.fontSize = "2.5em"
 }
 bobomsInput.addEventListener("click", totalBobomsOnly)
 
@@ -52,6 +54,7 @@ console.log(cheepsInput)
 
 totalCheepsOnly = () => {
     cheepsChildrenArray[4].textContent = cheepsInput.value * cheepsPrice
+    cheepsChildrenArray[4].style.fontSize = "2.5em"
 }
 cheepsInput.addEventListener("click", totalCheepsOnly)
 
