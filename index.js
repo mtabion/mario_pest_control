@@ -1,16 +1,18 @@
 const goombasLi = document.getElementById("goombas");
-
+//choose goomas li element
 const goombasChildrenArray = goombasLi.children;
-console.log(goombasChildrenArray)
+// console.log(goombasChildrenArray)
 
-const goombasPrice = 5
+const goombasPrice = 5 //goombas price
 
 goombasChildrenArray[0].textContent = `Goombas:`
-
+    //h2 name change to actual name of pest
 goombasChildrenArray[2].textContent = `Price: ${goombasPrice} coins`
+    //price alone changes to price with with actual price
 
+//chooses label tag, gets its children. Chooses input child
 const goombasInput = goombasChildrenArray[3].children[0]
-console.log(goombasInput)
+    // console.log(goombasInput)
 
 totalGoombasOnly = () => {
     goombasChildrenArray[4].textContent = goombasInput.value * goombasPrice
@@ -62,7 +64,7 @@ cheepsInput.addEventListener("click", totalCheepsOnly)
 const calculate = document.getElementById("calculate")
 const result = document.getElementById("result")
 
-function addHeading(e) {
+addHeading = (e) => {
     e.preventDefault()
     result.textContent = "The bill is: $" + Number((goombasInput.value * goombasPrice) +
         (bobomsInput.value * bobomsPrice) +
