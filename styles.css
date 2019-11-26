@@ -1,12 +1,11 @@
-/*h1 {
-  color: red;
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:700|Playfair+Display:900&display=swap');
+img {
+    width: 10vw;
+    height: 10vw;
 }
 
-img {
-  width: 50px;
-  height: auto;
-}*/
 h1 {
+  font-family: 'Playfair Display', serif;
   color: #FFFFFF;
   text-shadow: 0 0 10px #FFFFFF;
   color: #ff660062;
@@ -14,4 +13,69 @@ h1 {
   font-weight: bolder;
   font-style: normal;
   text-shadow: 5px 5px 0 rgba(0, 0, 0, 0.7);
-  }
+  margin-bottom: -10px;
+  margin-top: -5px;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+}
+
+#result {
+  font-family: 'Libre Baskerville', serif;
+  margin: 1.5em;
+  margin-left: -3em;
+  font-size: 2.5em;
+}
+
+body {
+  font-family: 'Libre Baskerville', serif;
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+li:nth-child(2) {
+  border-right-style: double;
+  border-right-width: 6px;
+  border-right-color: red;
+  border-left-style: double;
+  border-left-width: 6px;
+  border-left-color: red;
+  padding-right: 55px;
+  padding-left: 55px;
+}
+
+li {
+  margin-right: 5em;
+}
+
+footer {
+  margin-top: 6em;
+}
+
+label:nth-child(2) {
+  margin: 5em;
+}
+
+button {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.5em;
+  border-radius: 5%;
+  width: 150px;
+  height: auto;
+  margin-left: -8.5em;
+  background-color: lightgrey;
+  color: red;
+}
+
+input {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.5em;
+  border-radius: 5%;
+  width: 150px;
+  height: auto;
+}
